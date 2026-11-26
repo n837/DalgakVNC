@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;background:#F2F4F6;color:#15212C;font:14px/1.6 'Pretendard','Noto Sans KR','IBM Plex Sans',system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 20px 56px}
+.band{display:flex;align-items:center;gap:10px;background:#0F2233;color:#fff;padding:14px 20px;border-radius:14px;font-size:20px;font-weight:700}
+.band .mark{width:30px;height:30px}.band .back{margin-left:auto;font-size:13px;font-weight:500;color:#DCE4EB;text-decoration:none;padding:6px 12px;border-radius:8px}.band .back:hover{background:#22384D}
+h1{font-size:26px;margin:28px 0 6px}.intro{color:#4A5763;margin:0 0 8px}
+section{margin-top:28px}h2{font-size:17px;margin:0 0 2px}.note{color:#4A5763;font-size:13px;margin:0 0 12px}
+.item{background:#fff;border:1px solid #E3E7EB;border-radius:12px;padding:16px 20px;margin:10px 0}
+.head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}h3{font-size:15px;margin:0}.version{color:#4A5763;font-weight:500;font-size:13px}
+.license{font-size:12px;font-weight:700;color:#A35F00;background:#FFF1DA;border-radius:999px;padding:2px 10px}
+.item p{margin:6px 0 0}.links{font-size:13px}a{color:#A35F00}
+details{margin-top:10px}summary{cursor:pointer;font-size:13px;font-weight:600;color:#15212C}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.55 ui-monospace,Consolas,monospace;background:#F7F8FA;border-radius:8px;padding:12px;max-height:360px;overflow:auto;color:#2B3742}
+:focus-visible{outline:2px solid #A35F00;outline-offset:3px}
+@media(max-width:520px){main{padding:20px 14px 40px}h1{font-size:22px}.band .back{font-size:12px}}

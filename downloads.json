@@ -1,0 +1,27 @@
+{
+ "repo": "n837/DalgakVNC",
+ "tag": "release-2026-11-26",
+ "windows": {
+  "file": "PersonalVnc.Windows.zip",
+  "version": "0.11.0",
+  "sha256": "ea95827b53fbd01b9937f3b56ee5e39777de27aa5c3921d8a6e3fa33d3604571",
+  "size": 2772997,
+  "signature": "ZZbIujjVKPTEh/dInj8pWCgU3IARZGZqzZDOfFKEGiSLFHeqRQ1k8vw3N7UkX5EhiK9reXVvWADEFmhKrCd0QvL5TQoemuQcfSL7o+d+ZnwoLl1gnT4MvTtuHtd8jKSkfx4+Iqdo7oxxgXI20oqmlxFwVPP7XM03Mme9vkw7ncNAOcZV6Qa71MdvcpxL+LNcwwcEE9hDBItc7ey3Yyq51kXbyU6z8HENLS0CCeNBbAxTKXz9VFpcwRUOEYQVwEx884p9mRSfR3Ay8yFs8hTFVztwKgLT/ZacFDCxsA7oyznBKmb5k1lL47LXHynuuhgHgHqmusRV6HYq9jV+Xp6ECAEiMkdNlqCE5jzCZcofOjtePI6wfuh4XWG0C5iH200EsT+PYybEysLteIgk07ywmNBbm4U+w90Xq3fCl0rCoWqB1yLY5K8UopKoHyUktOZSXgMuz9G108oAi672onWS46UnTjDfDuV/J7+Khikwb0cesJLnGufpcgdMswqjSqDR",
+  "url": "https://github.com/n837/DalgakVNC/releases/download/release-2026-11-26/PersonalVnc.Windows.zip"
+ },
+ "windowsSetup": {
+  "file": "Dalgak-Setup.exe",
+  "version": "0.11.0",
+  "sha256": "9951289c18e83fb9cb82b7dbc2444d3097d2b30100eacd5eaababa7eda1ec317",
+  "size": 6396928,
+  "url": "https://github.com/n837/DalgakVNC/releases/download/release-2026-11-26/Dalgak-Setup.exe"
+ },
+ "linux": {
+  "version": "0.6.0",
+  "file": "Dalgak.Linux.tar.gz",
+  "size": 141827,
+  "sha256": "09827ad8d78ec37648c3535ee6b19f47ac21dabca707e61e88969b61f3d13ee3",
+  "signature": "Aq5fJRWgKyZOz/5EWLaMuGeS+hNYKWO64jmtIqhlfsUCqzTfNiwQsjjZEIVJlUQCcZkdlstwTifiwjGvNpM6iICQYvJiw8ry7IsR4MMASRzWkFvT0zKYsE4qtRBLsP9nGyGL43RtpNyd7ok4P+cUamG/0uZnAx/l8reDQceuLKA2YMCN0pOI02myF+QjSo5fVu3zrRy9mcW7HMXJCRmpCp8RNv9vKNInZy6i38++sbOKUmAIPQnnbHa0Lo2bb3UhNXkGyWLSBizXz5/Ii8LHkeyKkTN2bKYWuJRsHdvlESDwpxj0EV93RgaP/1ZsbN3JeMKTPTR71BYQiRW3K/4qLhMM0xRUOYKkA6tS5g40ht8YlzzI4MJ3dwJWC7xFsjsXDEI89a88qjmP2toynSnw8I9O1MFWvd0oIK9LOeKtPZZPJsKHQaNH1OhU7u7wolhoTm2dvIZVlblw++khXRIB7xaQ0803F7uJ8QGG75ZGSzH8+1rNd9pDDZ+o852rYHHJ",
+  "url": "https://github.com/n837/DalgakVNC/releases/download/release-2026-11-26/Dalgak.Linux.tar.gz"
+ }
+}
