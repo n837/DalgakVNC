@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Dalgak — 서버·계정 없는 개인용 P2P 원격 데스크톱">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1926"/>
+      <stop offset="55%" stop-color="#0F2233"/>
+      <stop offset="100%" stop-color="#17324A"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC466"/>
+      <stop offset="100%" stop-color="#F5A524"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="22%" r="48%">
+      <stop offset="0%" stop-color="#FFB547" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#FFB547" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="19" fill="none" stroke="#284560" stroke-width="2"/>
+
+  <!-- Subtle right-side P2P connection motif -->
+  <g transform="translate(815, 58)" opacity="0.95">
+    <!-- Left PC card -->
+    <rect x="0" y="28" width="124" height="86" rx="12" fill="#162D42" stroke="#2E4E6B" stroke-width="2"/>
+    <rect x="12" y="40" width="100" height="54" rx="6" fill="#0D1E2E"/>
+    <rect x="44" y="122" width="36" height="5" rx="2.5" fill="#466887"/>
+    <circle cx="24" cy="52" r="4" fill="#3DD68C"/>
+    <rect x="34" y="49" width="44" height="6" rx="3" fill="#2E4E6B"/>
+    <rect x="20" y="64" width="84" height="20" rx="4" fill="#1C3954"/>
+    <text x="62" y="148" text-anchor="middle" fill="#9BB3C9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="13" font-weight="600">Windows</text>
+
+    <!-- Direct mTLS encrypted bridge -->
+    <path d="M 134 71 L 204 71" stroke="#FFB547" stroke-width="3" stroke-dasharray="7 5" stroke-linecap="round"/>
+    <circle cx="169" cy="71" r="18" fill="#0F2233" stroke="#FFB547" stroke-width="2.5"/>
+    <!-- Lock icon -->
+    <rect x="162" y="70" width="14" height="10" rx="2.5" fill="#FFB547"/>
+    <path d="M 165 70 V 66.5 A 4 4 0 0 1 173 66.5 V 70" fill="none" stroke="#FFB547" stroke-width="2.2"/>
+    <text x="169" y="108" text-anchor="middle" fill="#FFD48A" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="11.5" font-weight="700">mTLS 1.2</text>
+    <text x="169" y="124" text-anchor="middle" fill="#8EA6BC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="11">직접 연결</text>
+
+    <!-- Right Linux / Pi card -->
+    <rect x="214" y="28" width="124" height="86" rx="12" fill="#162D42" stroke="#2E4E6B" stroke-width="2"/>
+    <rect x="226" y="40" width="100" height="54" rx="6" fill="#0D1E2E"/>
+    <rect x="258" y="122" width="36" height="5" rx="2.5" fill="#466887"/>
+    <circle cx="238" cy="52" r="4" fill="#3DD68C"/>
+    <path d="M 244 68 L 254 74 L 244 80" fill="none" stroke="#FFB547" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="259" y1="80" x2="275" y2="80" stroke="#9BB3C9" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="276" y="148" text-anchor="middle" fill="#9BB3C9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="13" font-weight="600">Linux / Pi</text>
+
+    <!-- Bottom pill badge -->
+    <rect x="4" y="172" width="330" height="32" rx="16" fill="#19334B" stroke="#2E4E6B" stroke-width="1.2"/>
+    <circle cx="24" cy="188" r="4.5" fill="#3DD68C"/>
+    <text x="178" y="192.5" text-anchor="middle" fill="#D5E2EE" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="12" font-weight="600">중계 서버 없음 · 계정 없음 · RSA-3072 서명</text>
+  </g>
+
+  <!-- Brand logo tile -->
+  <g transform="translate(56, 66)">
+    <rect width="74" height="74" rx="18" fill="#1A354D" stroke="#2F5170" stroke-width="2"/>
+    <g transform="translate(10, 10) scale(1.68)">
+      <path d="M10 9h8a9 9 0 0 1 0 18h-8z" fill="url(#amber)"/>
+      <path d="M13.5 12.5v11l2.9-2.7 2 4.2 1.9-.8-2-4.2 4-.3z" fill="#0F2233"/>
+      <path d="M6.65 8.83A4.5 4.5 0 0 1 9.83 5.65M3.27 7.93A8 8 0 0 1 8.93 2.27" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Brand title & tagline -->
+  <text x="150" y="106" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5">Dalgak</text>
+  <rect x="310" y="79" width="112" height="28" rx="14" fill="#223D57" stroke="#365A7D" stroke-width="1.2"/>
+  <text x="366" y="97.5" text-anchor="middle" fill="#FFB547" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="13" font-weight="700">P2P Remote</text>
+
+  <text x="150" y="140" fill="#B8CCE0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="19" font-weight="500">서버·계정 없이 기기끼리 직접 연결하는 개인용 원격 데스크톱</text>
+
+  <!-- Feature chips -->
+  <g transform="translate(56, 186)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="13.5" font-weight="600">
+    <rect x="0" y="0" width="142" height="34" rx="9" fill="#1A334B" stroke="#2D4E6C"/>
+    <text x="71" y="21.5" text-anchor="middle" fill="#E6EFF7">Windows · Linux</text>
+
+    <rect x="154" y="0" width="166" height="34" rx="9" fill="#1A334B" stroke="#2D4E6C"/>
+    <text x="237" y="21.5" text-anchor="middle" fill="#E6EFF7">GPU H.264 · DXVA</text>
+
+    <rect x="332" y="0" width="144" height="34" rx="9" fill="#1A334B" stroke="#2D4E6C"/>
+    <text x="404" y="21.5" text-anchor="middle" fill="#E6EFF7">원격 소리 전송</text>
+
+    <rect x="488" y="0" width="176" height="34" rx="9" fill="#1A334B" stroke="#2D4E6C"/>
+    <text x="576" y="21.5" text-anchor="middle" fill="#E6EFF7">파일 · SSH · WoL</text>
+  </g>
+
+  <!-- Footer subtle URL -->
+  <text x="56" y="268" fill="#8EA6BC" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="14">https://n837.github.io/DalgakVNC/</text>
+</svg>
